@@ -8,6 +8,7 @@ import Three from '../Images/Three.jpg';
 
 function CarouselBanner() {
   return (
+    <div className="container-fluid">
     <Carousel>
       <Carousel.Item>
         <img
@@ -31,6 +32,7 @@ function CarouselBanner() {
         />
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

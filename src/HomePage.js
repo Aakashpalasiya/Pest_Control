@@ -9,11 +9,13 @@ import LayOutComponent from "./LayOutComponent";
 function HomePage() {
   return (
     <LayOutComponent>
+      <div className="container-fluid">
     <Carosoul/>
     <About/>
     <Product/>
     <OurFeatures/>
     <ContactUs/>
+    </div>
     </LayOutComponent>
   );
 }

@@ -3,7 +3,7 @@ import { FaFacebook, FaEnvelope, FaLinkedin, FaTwitter, FaWhatsapp } from 'react
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  return (
+  return ( 
     <footer className="bg-dark text-light py-3 ">
       <div className="container">
         <div className="row">
@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="list-unstyled ">
               <li >Shop No.1,Ashirwad Society</li>
               <li>Cross Road No.2,Thakur Village</li>
-              <li>Kandivali East,Mumbai-400</li>
+              <li>Kandivali East,Mumbai-400101</li>
             </ul>
           </div>
         </div>
